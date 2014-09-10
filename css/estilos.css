@@ -1,0 +1,39 @@
+h1{
+	color: #333;
+	font-size: 48px;
+	text-align: center;
+}
+header{
+	font-family: 'Segoe UI Ligth', arial, sans-serif;
+	background-color: #C0C0C0;
+}
+nav ul li{
+	display: inline-block; /*colocar el menu en horizontal*/
+	list-style: none; /*quitar los puntos */
+	font-size: 18px;
+	padding: 4px; /*espacio entre menus*/ 
+}
+nav ul{
+	text-align: center;
+	background-color: #333333;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #CCCCCC;
+}
+#secciones{
+	vertical-align: top;
+}
+article, .barra_lateral{
+	vertical-align: top;
+	display: inline-block;
+}
+article {
+	width: 70%;
+	background-color: #D3D3D3;
+}
+.barra_lateral{
+	width: 28%;
+	background-color: #D3D3D3;
+	font-family: 'Segoe UI Ligth', arial, sans-serif;
+}
